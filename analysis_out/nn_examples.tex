@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{l p{4.5cm} p{4.5cm} c p{3.5cm}}
+\toprule
+\textbf{Lang} & \textbf{Dev Query (paraphrased)} & \textbf{Nearest Train Instance (paraphrased)} & \textbf{Sim.} & \textbf{Train Emotion Labels} \\
+\midrule
+EN & nan & nan & 1.00 & fear,joy \\
+ES & nan & nan & 1.00 & anticipation \\
+AR & nan & nan & 1.00 & fear,sadness \\
+\bottomrule
+\end{tabular}
+\caption{
+Nearest-neighbor explanations using cosine similarity in the learned embedding space.
+For each development-set query, we report the most similar training instance along with its emotion labels.
+Texts are lightly paraphrased for clarity and anonymization.
+}
+\label{tab:nn_examples}
+\end{table*}

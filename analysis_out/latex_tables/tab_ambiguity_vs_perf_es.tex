@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Performance stratified by ambiguity level (entropy $H$) on Spanish validation/test instances.}
+\label{tab:ambig_perf_es}
+\begin{tabular}{c l r c c c c}
+\toprule
+Bin & $H$ range & $\#Inst$ & $H$ mean & $w$ mean & miF1 $\uparrow$ & AP $\uparrow$ \\
+\midrule
+1 & [0.1059, 0.1628] & 136 & 0.1443 & 0.7496 & 0.8424 & 0.6118 \\
+2 & [0.1628, 0.1907] & 136 & 0.1770 & 0.7019 & 0.6903 & 0.6117 \\
+3 & [0.1907, 0.2207] & 135 & 0.2059 & 0.6626 & 0.6284 & 0.6019 \\
+4 & [0.2207, 0.2600] & 136 & 0.2405 & 0.6184 & 0.5830 & 0.5652 \\
+5 & [0.2600, 0.3706] & 136 & 0.2897 & 0.5607 & 0.4948 & 0.4594 \\
+\bottomrule
+\end{tabular}
+\vspace{2pt}\small{$w=\exp(-\tau H)$; higher $H$ indicates more ambiguous instances.}
+\end{table}
