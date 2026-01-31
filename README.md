@@ -57,10 +57,8 @@ For each training instance:
 
 See Algorithm 1 in the paper for full details.
 
----
-
 ## 📂 Repository Structure
-
+```
 ├── train.py # Main training script
 ├── multilingual_emotion_uncertainty_train.py
 ├── modeling.py # Model definitions
@@ -80,12 +78,7 @@ See Algorithm 1 in the paper for full details.
 │
 ├── runs/ # Saved checkpoints and metrics
 ├── README.md
-
-yaml
-Copy code
-
----
-
+```
 ## 🚀 Training
 
 ### Example: English with ambiguity weighting
